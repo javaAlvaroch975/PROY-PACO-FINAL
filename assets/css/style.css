@@ -1791,6 +1791,10 @@ section {
 
 .centrado {
   text-align: center;
-  color: black;
+}
+
+.centradonegro{
+    text-align: center;
+    color: black;
 }
 
