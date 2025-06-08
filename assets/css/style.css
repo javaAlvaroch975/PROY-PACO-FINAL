@@ -214,6 +214,20 @@ h1, h2, h3, h4, h5, h6 {
   visibility: visible;
 }
 
+form {
+  width: 800px;
+  margin: auto;
+}
+
+label{
+  float: left;
+}
+
+#Maps{
+  margin: auto;
+  text-align: center;
+}
+
 @media (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
