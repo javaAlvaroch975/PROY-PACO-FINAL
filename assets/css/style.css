@@ -1856,26 +1856,21 @@ section {
 }
 
 .music-btn {
-  background: linear-gradient(135deg, #18d26e, #0f8a5f);
+  margin-left: 40px;
+  background-color: #18d26e;
   color: white;
   border: none;
-  padding: 12px 24px;
-  font-size: 16px;
-  font-weight: 700;
-  border-radius: 30px;
+  padding: 10px 18px;
+  border-radius: 6px;
+  font-weight: 600;
   cursor: pointer;
-  box-shadow: 0 8px 15px rgba(24, 210, 110, 0.4);
-  transition: all 0.3s ease;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-left: 20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .music-btn:hover {
-  background: linear-gradient(135deg, #0f8a5f, #18d26e);
-  box-shadow: 0 12px 20px rgba(24, 210, 110, 0.7);
-  transform: scale(1.05);
+  background-color: #13a957;
+  transform: translateX(4px);
 }
 
 .music-btn i {
