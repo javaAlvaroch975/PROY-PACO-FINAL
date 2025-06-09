@@ -1812,3 +1812,48 @@ section {
     color: black;
 }
 
+.section-title1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.info-container1 {
+  display: flex;
+  justify-content: center; /* Centra los elementos horizontalmente */
+  gap: 40px; /* Espacio entre bloques */
+  flex-wrap: wrap; /* Evita que se desborde en pantallas pequeñas */
+}
+
+.info-box1 {
+  text-align: center;
+  padding: 10px;
+  max-width: 250px;
+}
+
+.download-btn1 {
+  background-color: #18d26e;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+.download-btn1:hover {
+  background-color: #15b35f; /* Versión más oscura al pasar el mouse */
+}
+
+.section-title1 {
+  text-align: center;
+}
+
+.download-section {
+  background: whitesmoke;
+  padding: 40px 0;
+}
+
+
+
