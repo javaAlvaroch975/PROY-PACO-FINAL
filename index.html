@@ -53,7 +53,6 @@
   ======================================================== -->
   </head>
 
-  <body>
     <!-- ======= Hero Section ======= -->
     <section id="hero">
       <div class="hero-container">
@@ -77,6 +76,30 @@
 
     <!-- ======= Header ======= -->
     <header id="header" class="d-flex align-items-center">
+        <body>
+    <audio id="bg-music" loop>
+    <source src="../assets/secret/Enjoy_the_Ride.mp3" type="audio/mpeg">
+    </audio>
+
+    <button id="music-btn" class="music-btn">
+      <i class="bi bi-music-note-beamed"></i> Música
+    </button>
+
+    <script>
+      const music = document.getElementById('bg-music');
+      const btn = document.getElementById('music-btn');
+
+      btn.addEventListener('click', () => {
+        if (music.paused) {
+        music.play();
+        btn.textContent = 'Pausar música';
+      } else {
+        music.pause();
+        btn.textContent = 'Reproducir música';
+      }
+    });
+</script>
+
       <div class="container d-flex align-items-center justify-content-between">
         <div class="logo">
           <a href="index.html"

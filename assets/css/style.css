@@ -1855,5 +1855,32 @@ section {
   padding: 40px 0;
 }
 
+.music-btn {
+  background: linear-gradient(135deg, #18d26e, #0f8a5f);
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 30px;
+  cursor: pointer;
+  box-shadow: 0 8px 15px rgba(24, 210, 110, 0.4);
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.music-btn:hover {
+  background: linear-gradient(135deg, #0f8a5f, #18d26e);
+  box-shadow: 0 12px 20px rgba(24, 210, 110, 0.7);
+  transform: scale(1.05);
+}
+
+.music-btn i {
+  font-size: 18px;
+}
+
+
 
 
