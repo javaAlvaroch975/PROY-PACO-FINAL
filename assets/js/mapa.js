@@ -11,7 +11,7 @@ window.onload = function () {
     mapTypeId: google.maps.MapTypeId.ROADMAP,
   };
   var mapahoyoSede = new google.maps.Map(
-    document.getElementById("mapaHoyo"),
+    document.getElementById("mapa"),
     mapOptions
   );
   setMarkers(mapahoyoSede, marcadores);
